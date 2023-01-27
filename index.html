@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/modal.css">
+  <title>Interactive rating component</title>
+
+  
+</head>
+<body>
+
+  <main class="container">
+
+    <div class="rating">
+
+      <div class="estrela">
+        <img src="./assets/images/icon-star.svg" alt="star">
+      </div>
+
+      <div class="text">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+
+      <form>
+        
+        <input type="radio" name="rating" id="1" value="1">
+        <label for="1">1</label>
+        <input type="radio" name="rating" id="2" value="2">
+        <label for="2">2</label>
+        <input type="radio" name="rating" id="3" value="3">
+        <label for="3">3</label>
+        <input type="radio" name="rating" id="4" value="4">
+        <label for="4">4</label>
+        <input type="radio" name="rating" id="5" value="5">
+        <label for="5">5</label>
+
+        
+      </form>
+      <button>SUBMIT</button>
+
+    </div>
+
+
+    <div class="thank toggle">
+        <div class="resultado">
+          <img src="./assets/images/illustration-thank-you.svg" alt="result">
+
+          <p class="edit">You selected <span class="choice"></span> out of 5</p>
+
+        </div>
+
+        <div class="text">
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </div>
+
+  </main>
+
+
+  
+  <script src="./assets/js/script.js"></script>
+  
+</body>
+</html>
